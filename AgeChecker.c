@@ -16,10 +16,10 @@ int main()
         printf("INVALID AGE!\n");
     }
     else if (age >= 18) {
-        printf("\nYour name is %s, you're an ADULT, and your age is %d!\n", name, age);
+        printf("\nYour name is %s\nyou're an ADULT\nand your age is %d!\n", name, age);
     }
     else {
-        printf("\nYour name is %s, you're a MINOR, and your age is %d!\n", name, age);
+        printf("\nYour name is %s\nyou're a MINOR\nand your age is %d!\n", name, age);
     }
 
     return 0;

@@ -7,11 +7,11 @@
     scanf("%d", &num);
 
     if(num % 2==0){
-      printf("Number is Even!");
+      printf("\nNumber is Even!");
     }
 
     else{
-      printf("Number is Odd!");
+      printf("\nNumber is Odd!");
     }
 
 

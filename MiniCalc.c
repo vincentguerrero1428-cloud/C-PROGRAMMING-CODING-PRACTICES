@@ -2,9 +2,9 @@
     int main()
 {
 
-      int num1,num2;
-        char operators;
-        float result;
+    int num1,num2;
+    char operators;
+    float result;
 
     printf("Enter first number: ");
     scanf("%d", &num1);
@@ -17,7 +17,7 @@
 
 
 
-         switch(operators){
+    switch(operators){
 
     case '+':
     result=num1+num2;
@@ -40,11 +40,14 @@
     }
 
     else{
-    result=num1/num2;
+    result=(float)num1/num2;
     printf("\nResult: %.2f", result);
     }
     break;
 
+    default:
+    printf("INVALID INPUTS!");
+    break;
     }
 
     return 0;
